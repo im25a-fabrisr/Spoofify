@@ -1,0 +1,11 @@
+.cover-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cover-grid img {
+  width: 100%;
+  object-fit: cover;
+}
